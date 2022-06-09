@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ust {   padding-top:10px; padding-bottom:10px; background-color:rgba(1,0,0,.7); position:fixed; width:100%; z-index:2; }
+
+@media screen and (max-width: 700px) { 
+
+img { max-width: 100%;}
+div { width: 100%;} 
+.ust { position:static;  }
+
+} 
+
+.logo { padding-top:10px; padding-bottom:10px; }
+.logo img { width:400px; margin-left:50px;}
+.menu { padding-top:32px; padding-left:80px;}
+.menu ul { padding:0; margin:0;}
+.menu ul li {
+	float: left;
+	list-style-type:none;
+	padding-right:20px;
+}
+.menu ul li a { text-decoration:none;
+	display: block;
+	padding-bottom:8px; padding-left:5px; padding-right:5px;
+	color:#fff; font-weight:bold;
+	font-size:14px; font-family:Arial;
+}
+.menu ul li a:hover {
+	color:#5caeb5;
+	border-bottom:3px solid #5caeb5;
+}
+
+
+
+.icerik {  padding:30px; text-align:center; padding-top:180px; padding-bottom:30px; font-family:Arial; }
+.icerik h2 { color:#fff; font-family: 'Playball-Regular';}
+.icerik h4 { color:#CCC;}
+.teklifyazi {  padding:30px; text-align:center; padding-top:120px; padding-bottom:30px; font-family:Arial; }
+.teklifyazi h2 { color:#fff; }
+.tesekkur {  padding:30px; text-align:center; padding-top:10px; padding-bottom:30px; font-family:Arial; }
+.tesekkur img { width:300px;}
+.tesekkur h4 { color:#fff; }
+.teklifyazi h4 { color:#CCC;}
+.hakkimizda {  padding:30px;  padding-top:50px; padding-bottom:30px; margin-top:100px;}
+.hakkimizda h1 { color:#CCC;}
+.hakkimizda p { color:#999;}
+.eyazi { margin-top:30px;}
+.footerresim { text-align:center;}
+.footerust { margin-top:130px; margin-bottom:40px;}
+hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #437c81;}
+.footer { background-color:#4aa5ad;  padding-top:50px; padding-bottom:50px; }
+.footeryazi {  margin-top:30px; text-align:center; color:#fff; font-family:Arial; font-size:15px; }
+.footerikon { text-align:center; margin-top:20px; }
+.footerikon img { -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);}
+.footerikon img:hover {-webkit-filter: grayscale(0%);
+  filter: grayscale(0%);}
+.design { text-align:center;}
+.arama { border:1px solid #323b46; padding:7px; background-color:#1a1f25; width:250px; margin-top:30px; margin-left:80px; border-radius:3px;}
+
+.footerresim {position:relative; margin-bottom:20px;  }
+.footerresim span { padding-top:10px; padding-bottom:10px; display:none; position:absolute;  width:150px;   color:#fff; background-color:rgba(0,0,0,.5); bottom:35%; left:71px; transition:all 300ms;}
+.footerresim a:hover span {display:block;  }
+
+video { 
+position:absolute;
+right: 0; 
+bottom: 0; 
+top:-20;
+min-width: 100%; 
+min-height: 100%; 
+z-index: -100; 
+}  
+#hakkimizda { margin-top:20px;}
+.h_1 { margin-bottom:20px; margin-top:100px;}
+.hcizgi { margin-top:20px;}
+.h_2 { margin-bottom:50px;}
+.h_2 img { width:100%;}
+.h_yazi1 { text-align:center;  }
+.h_yazi1 h1 {  font-family:Arial;}
+.h_yazi1 h2 small { color:#CCC; font-family:Arial;}
+.h_yazi2 p { text-align:center; font-family:Arial; font-size:15px;}
+#neler {  background-color:#F2F2F2; margin-top:20px; padding-bottom:20px;}
+#neler h1 {text-align:center; font-family:Arial;}
+.neleric { margin-bottom:20px; margin-top:50px; padding-bottom:40px;}
+.o_1 {margin-bottom:30px; margin-top:150px;}
+#ortaklar { margin-bottom:100px; }
+.o_icerik { text-align:center; margin-top:100px; padding-bottom:40px; }
+.o_icerik p {font-family:Arial;}
+.cnr { border-left:1px solid #CCC; border-right:1px solid #CCC;}
+
+#yaptiklar {  background-color:#F0F0FF;  padding-top:50px; padding-bottom:20px;}
+#yaptiklar h1 {text-align:center; font-family:Arial;}
+.y_1 { margin-bottom:40px;}
+
+.referans {position:relative; margin-bottom:20px; margin-top:50px;  }
+.referans span { padding-top:100px; padding-left:70px; padding-bottom:10px; display:none; position:absolute;  width:260px; height:210px;   color:#fff; background-color:rgba(0,0,0,.9); bottom:9%; left:16px; font-size:20px; font-family:Arial;}
+.referans a:hover span {display:block;  }
+
+.hizmetalan { text-align:center; font-family:Arial; padding-top:40px;}
+.hizmetalan p { padding-left:40px; padding-right:40px; padding-bottom:50px;}
+
+#iletisim { background-color:#F0F0FF; padding-bottom:100px;}
+.iletisimyazi { padding-left:50px; padding-top:50px;}
+.iletisimtablo tr td  { padding:10px; font-size:17px; font-family:Arial;}
+.mesaj tr td {  }
+.cubuk { padding-bottom:20px; padding-top:20px; width:500px; background-color:#F0F0FF; border:none; border-bottom:1px solid #999; font-size:17px;}
+.buton { padding:10px; background-color:#4aa5ad; border:0px; font-family:Arial; font-size:12px; color:#fff;}
+.i_ikon { color:#4aa5ad;}
+
+#top {
+	
+    
+    bottom: 50px;
+    display: none; z-index:100;
+    position: fixed;
+    right: 40px;
+	size:20px;
+	
+}
+
+
+
+
+.view-fifth img {
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view-fifth .mask {
+   background-color: rgba(146,96,91,0.3);
+   -webkit-transform: translateX(-300px);
+   -moz-transform: translateX(-300px);
+   -o-transform: translateX(-300px);
+   -ms-transform: translateX(-300px);
+   transform: translateX(-300px);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view-fifth h2 {
+   background: rgba(255, 255, 255, 0.5);
+   color: #000;
+   -webkit-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+   -moz-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+   box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+.view-fifth p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   color: #333;
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+.view-fifth:hover .mask {
+   -webkit-transform: translateX(0px);
+   -moz-transform: translateX(0px);
+   -o-transform: translateX(0px);
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+}
+.view-fifth:hover img {
+   -webkit-transform: translateX(300px);
+   -moz-transform: translateX(300px);
+   -o-transform: translateX(300px);
+   -ms-transform: translateX(300px);
+   transform: translateX(300px);
+}
+.view-fifth:hover p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+.view {
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+   margin-left:50px;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   border-radius:5px;
+   cursor: default;
+   background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.view .mask,.view .content {
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #5caeb5;
+   color: #fff;
+   text-transform: uppercase;
+
+   margin-top:15px;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+.teklif { position: fixed; z-index:100; bottom:0px;}
+
+.teklif2 { text-align:center; margin-bottom:100px; padding-bottom:100px; padding-top:20px;}
+.teklif ul { padding:0; margin:0; }
+.teklif ul li { list-style-type:none; float:left; padding:5px;}
+.teklif ul li a { border:2px solid #C10000; border-radius:5px; display:block; text-decoration:none; font-size:20px; color:#fff; background-color:#C10000; padding:20px; transition:all 400ms;}
+.teklif ul li a:hover {border:2px solid #C10000; background-color:#FFF; color:#C10000;}
+.tekliftel { padding:10px; font-size:20px; width:500px; text-align:center; border-radius:5px; border:none;}
+
+.ref { margin:5px; border:1px solid #ccc; width:202px;}
+.refresim { border-bottom:1px solid #CCC; width:200px;}
+.refresim img {-webkit-filter: grayscale(0%);
+  filter: grayscale(0%);}
+.refresim img:hover {-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);}
+
+.refyazi { border-top:1px solid #fff; width:200px; }
